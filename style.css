@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+#header-container {
+	background-color: #000;
+	height: 833px;
+}
+
+.div-container-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.div-container-header h1 {
+	font-family: "Press Start 2P", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #00ff00;
+	margin: 25px 0;
+}
+
+.div-container-header > div > h2 {
+	font-family: "Press Start 2P", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	color: #00ff00;
+	margin: 25px 0;
+}
+
+.div-container-header p {
+	font-family: "VT323", monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+}
+
+/* PROFILE CONTAINER */
+.profile-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	flex-direction: column;
+	text-align: center;
+}
+
+.profile-picture {
+	border-radius: 50%;
+	height: 180px;
+	width: 180px;
+	margin-top: 10px;
+}
+
+.div-description-profile h2 {
+	font-family: "VT323", monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #00ff00;
+	font-size: 2.5rem;
+}
+
+.div-description-profile p {
+	font-family: "DM Mono", monospace;
+	font-weight: 300;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.1rem;
+	width: 40%;
+	margin: auto;
+}
+
+.breakrow {
+	width: 80px;
+	color: #00ff00;
+	margin: auto;
+	border: dashed;
+}
+
+/* SKILLS */
+.skills-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.div-skills-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.div-skills-container h2 {
+	font-family: "VT323", monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #00ff00;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.div-skills-container p {
+	font-family: "DM Mono", monospace;
+	font-weight: 300;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.1rem;
+	width: 40%;
+	margin: auto;
+	text-align: center;
+}
+
+.bootstrap-logo {
+	margin-left: 40px;
+	margin-top: 60px;
+}
+
+/* Media Querie for skill container*/
+@media (min-width: 1000px) and (max-width: 1220px) {
+	.div-img-skills {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 1000px) {
+	.div-img-skills {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		height: 100%;
+	}
+
+	.div-img-skills img {
+		height: 200px;
+	}
+
+	.bootstrap-logo {
+		align-self: flex-start;
+	}
+}
+
+/* CONTACT */
+.contact-container {
+	margin-bottom: 100px;
+}
+
+.title-paragraph-contact-container h2 {
+	font-family: "VT323", monospace;
+	font-weight: 400;
+	font-style: normal;
+	color: #00ff00;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.title-paragraph-contact-container p {
+	font-family: "DM Mono", monospace;
+	font-weight: 300;
+	font-style: normal;
+	color: #fff;
+	font-size: 1.1rem;
+	width: 40%;
+	margin: auto;
+}
+
+.contact-me-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	padding: 7px;
+	background-image: linear-gradient(to bottom, #00ff00 0%, #008800 100%);
+	color: black;
+	border-radius: 15px;
+	font-family: "DM Mono", monospace;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.3rem;
+	margin: auto;
+	width: 200px;
+}
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	background-image: linear-gradient(to bottom, #0eda63 0%, #014116 100%);
+}
+
+/* FOOTER */
+.footer-container {
+	background-color: #00ff00;
+	color: black;
+}
+
+.footer-div-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 180px;
+}
+
+.footer-div-container p {
+	font-family: "DM Mono", monospace;
+	font-weight: bold;
+	font-style: normal;
+	color: black;	
+	margin-right: 30px;
+}
+
+.linkedin-img {
+	border-radius: 50px;
+	margin: 0 20px;
+}
+
+.copy {
+	font-size: 1.1rem;
+}
